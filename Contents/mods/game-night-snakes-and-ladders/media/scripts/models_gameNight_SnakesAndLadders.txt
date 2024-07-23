@@ -1,0 +1,176 @@
+module Base
+{
+  
+    model Snakes_and_Ladders_Board_01
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_01, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_02
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_02, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_03
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_03, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_04
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_04, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_05
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_05, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_06
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_06, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_07
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_07, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_08
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_08, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_09
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_09, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_10
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_10, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_11
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_11, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_12
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_12, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_13
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_13, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_14
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_14, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Snakes_and_Ladders_Board_15
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_15, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+    model Snakes_and_Ladders_Board_16
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_16, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+    model Snakes_and_Ladders_Board_17
+    {
+        mesh = WorldItems/CheckerBoard, 
+        texture = Item_InPlayTextures/Snakes_and_Ladders_Board_17, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model Button01
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+
+    model Button02
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+
+    model Button03
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+
+    model Button04
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+
+    model Button05
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+
+    model Button06
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+
+    model Button07
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+
+    model Button08
+    {
+        mesh = WorldItems/coin,
+        texture = modelTextures/Black_Stone_Texture,
+        scale = 0.001,
+    }
+}
