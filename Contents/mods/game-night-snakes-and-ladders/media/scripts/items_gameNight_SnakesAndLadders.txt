@@ -1,43 +1,175 @@
 module Base
 {
-   	 item GoStonesBlack
+   	 item Button01
     {
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Black Go Stone,
-        Icon = OutOfPlayTextures/Go_Stone_Black,
-        WorldStaticModel = Go_Stones_Black,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button01_ico,
+        WorldStaticModel = Button01,
     }
 
-
-  	item GoStonesWhite
+  	 item Button02
     {
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = White Go Stone,
-        Icon = OutOfPlayTextures/GoStonesWhite,
-        WorldStaticModel = Go_Stones_White,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button02_ico,
+        WorldStaticModel = Button02,
+    }
+
+  	  item Button03
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button03_ico,
+        WorldStaticModel = Button03,
+    }
+
+  	 item Button04
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button04_ico,
+        WorldStaticModel = Button04,
+    }
+
+  	 item Button05
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button05_ico,
+        WorldStaticModel = Button05,
+    }
+
+  	 item Button06
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button06_ico,
+        WorldStaticModel = Button06,
+    }
+
+  	 item Button07
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button07_ico,
+        WorldStaticModel = Button07,
+    }
+
+	 item Button08
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button08_ico,
+        WorldStaticModel = Button08,
     }
 
 
-	item GoBoard
-	{
+	item Snakes_and_Ladders_Board_01
+    {
        DisplayCategory = GameBoard, 
        WeightReduction = 12, 
        Weight = 1, 
-       Type = Container, 
-       Capacity = 1,
-       PutInSound   =   PutItemInBag,
-       DisplayName = Go Board, 
-       Icon = OutOfPlayTextures/GoBoard, 
-       WorldStaticModel = Go_Board,
-       gameNight_boxEnough = TRUE,
-	}
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_01,
+    }
 
+	item Snakes_and_Ladders_Board_02
+    {
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_02,
+    }
 
-    item GoBoard_sealed
+	item Snakes_and_Ladders_Board_03
+    {
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_03,
+    }
+
+	item Snakes_and_Ladders_Board_04
+    {
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_04,
+    }
+
+	item Snakes_and_Ladders_Board_05
+    {
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_05,
+    }
+
+	item Snakes_and_Ladders_Board_06
+    {
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_06,
+    }
+
+	item Snakes_and_Ladders_Board_07
+    {
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_07,
+    }
+
+	item Snakes_and_Ladders_Board_08
+    {
+       DisplayCategory = GameBoard, 
+       WeightReduction = 12, 
+       Weight = 1, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_08,
+    }
+
+    item Snakes_and_Ladders_sealed
         {
          DisplayCategory = GameBox, 
          WeightReduction = 12,
@@ -46,7 +178,7 @@ module Base
          Capacity = 1,
          DisplayName = Go Board (Sealed), 
          Icon = OutOfPlayTextures/GoBoard, 
-         WorldStaticModel = Go_Board,
+         WorldStaticModel = Snakes_and_Ladders_Box,
         }
 
 }
