@@ -1,0 +1,5 @@
+name=Game Night - Snakes and Ladders
+id=gamenight_snakes_and_ladders
+description=Adds Snakes and Ladders Game Night Add-on
+poster=poster.png
+require=gamenight

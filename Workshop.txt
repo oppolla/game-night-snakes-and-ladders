@@ -1,0 +1,14 @@
+version=1
+id=
+title=Game Night: Snakes and Ladders
+description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
+description=[h3]Also known as Chutes and Ladders, this childhood classic is now in PZ![/h3]
+description=
+description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
+description=
+description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
+description=
+tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
+visibility=public
+
+
