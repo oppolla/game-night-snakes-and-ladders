@@ -209,30 +209,3 @@ gamePieceAndBoardHandler.registerSpecial("Base.Base.Button08",
 			alternateStackRendering = {func="DrawTextureRoundFace", sideTexture="White_Stone_Texture", depth = 5, rgb = {0.2, 0.4, 0.3}},
 		}
 )
-
--- function deckActionHandler.onButtonDraw(deckItem, oldDeck)
--- 	local current = deckItem:getModData()["gameNight_rotation"] or 0
--- 	local angle = ZombRand(0,360)
--- 	local state = (current+angle) % 360
--- 	gamePieceAndBoardHandler.setModDataValue(deckItem, "gameNight_rotation", state)
-
--- 	if deckItem ~= oldDeck then
--- 		local deckSize, flippedStates = deckActionHandler.getDeckStates(deckItem)
--- 		for i=1, #deckSize do deckItem:getModData()["gameNight_cardFlipped"][i] = (ZombRand(2)>0) end
--- 	end
--- end
-
-
--- function applyItemDetails.applyFromPool(item, numberOf)
--- 	numberOf = numberOf or 1
--- 	local pool = deckActionHandler.deckCatalogues[item:getType()]
--- 	local pieces = {}
--- 	for i=1, numberOf do
--- 		local ID = pool[(ZombRand(#pool)+1)]
--- 		table.insert(pieces, ID)
--- 	end
--- 	item:getModData()["gameNight_cardDeck"] = pieces
--- 	item:getModData()["gameNight_cardFlipped"] = {}
--- 	for i=1, #pieces do item:getModData()["gameNight_cardFlipped"][i] = (ZombRand(2)>0) end
--- 	return pieces
--- end

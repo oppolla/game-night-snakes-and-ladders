@@ -38,6 +38,7 @@ local function getRandomBoard()
     return boardOptions[randomIndex]
 end
 
+-- happens 4 times, avoid duplicates
 local function getRandomButton()
     local randomIndex = ZombRand(1, #boardOptions)
     return buttonOptions[randomIndex]
@@ -45,50 +46,15 @@ end
 
 local selectedBoard = getRandomBoard(boardOptions)
 
-local selectedButtons = {}
-
-
+local selectedButtons = getRandomButton(buttonOptions)
 
 gameNightDistro.proceduralDistGameNight.itemsToAdd["Snakes_and_Ladders_sealed"] = {}
 
-
-
-
 gameNightDistro.gameNightBoxes["Snakes_and_Ladders_sealed"] = {
     rolls = 1,
     items = {
-        "Base.Snakes_and_Ladders_Board_17", 9999,
-        "Base.Button08", 9999,
+        selectedBoard, 9999,
+        selectedButtons, 9999,
     },
     junk = { rolls = 1, items = {} }, fillRand = 0,
-}
-
-
-local function shuffle(tbl)
-    for i = #tbl, 2, -1 do
-        local j = math.random(i)
-        tbl[i], tbl[j] = tbl[j], tbl[i]
-    end
-    return tbl
-end
-
-local selectedBoard = boardSelection[ZombRand(#boardOptions)]
-
-local shuffledButtons = shuffle(buttonOptions)
-local selectedButtons = {}
-for i = 1, 4 do
-    selectedButtons[i] = shuffledButtons[i]
-end
-
-gameNightDistro.gameNightBoxes["Snakes_and_Ladders_sealed"] = {
-    rolls = 1,
-    items = {
-        selectedBoard, 9999, -- Add the selected board with a large quantity
-        selectedButtons[1], 9999,
-        selectedButtons[2], 9999,
-        selectedButtons[3], 9999,
-        selectedButtons[4], 9999,
-    },
-    junk = { rolls = 1, items = {} },
-    fillRand = 0,
 }
