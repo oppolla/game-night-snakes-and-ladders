@@ -121,7 +121,7 @@ module Base
     }
 
 
-	item Snakes_and_Ladders_Board_01
+    item Snakes_and_Ladders_Board_01
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
@@ -131,7 +131,7 @@ module Base
        WorldStaticModel = Snakes_and_Ladders_Board_01,
     }
 
-	item Snakes_and_Ladders_Board_02
+    item Snakes_and_Ladders_Board_02
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
@@ -141,7 +141,7 @@ module Base
        WorldStaticModel = Snakes_and_Ladders_Board_02,
     }
 
-	item Snakes_and_Ladders_Board_03
+    item Snakes_and_Ladders_Board_03
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
@@ -151,7 +151,7 @@ module Base
        WorldStaticModel = Snakes_and_Ladders_Board_03,
     }
 
-	item Snakes_and_Ladders_Board_04
+    item Snakes_and_Ladders_Board_04
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
@@ -161,7 +161,7 @@ module Base
        WorldStaticModel = Snakes_and_Ladders_Board_04,
     }
 
-	item Snakes_and_Ladders_Board_05
+    item Snakes_and_Ladders_Board_05
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
@@ -171,7 +171,7 @@ module Base
        WorldStaticModel = Snakes_and_Ladders_Board_05,
     }
 
-	item Snakes_and_Ladders_Board_06
+    item Snakes_and_Ladders_Board_06
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
@@ -181,7 +181,7 @@ module Base
        WorldStaticModel = Snakes_and_Ladders_Board_06,
     }
 
-	item Snakes_and_Ladders_Board_07
+    item Snakes_and_Ladders_Board_07
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
@@ -191,7 +191,7 @@ module Base
        WorldStaticModel = Snakes_and_Ladders_Board_07,
     }
 
-	item Snakes_and_Ladders_Board_08
+    item Snakes_and_Ladders_Board_08
     {
        DisplayCategory = GameBoard, 
        Weight = 0.5, 
