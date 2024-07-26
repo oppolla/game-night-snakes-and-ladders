@@ -7,7 +7,7 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button01_ico,
-        WorldStaticModel = Button01,
+        WorldStaticModel = Button,
     }
 
   	 item Button02
@@ -17,7 +17,7 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button02_ico,
-        WorldStaticModel = Button02,
+        WorldStaticModel = Button,
     }
 
   	  item Button03
@@ -27,7 +27,7 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button03_ico,
-        WorldStaticModel = Button03,
+        WorldStaticModel = Button,
     }
 
   	 item Button04
@@ -37,7 +37,7 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button04_ico,
-        WorldStaticModel = Button04,
+        WorldStaticModel = Button,
     }
 
   	 item Button05
@@ -47,7 +47,7 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button05_ico,
-        WorldStaticModel = Button05,
+        WorldStaticModel = Button,
     }
 
   	 item Button06
@@ -57,7 +57,7 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button06_ico,
-        WorldStaticModel = Button06,
+        WorldStaticModel = Button,
     }
 
   	 item Button07
@@ -67,7 +67,7 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button07_ico,
-        WorldStaticModel = Button07,
+        WorldStaticModel = Button,
     }
 
 	 item Button08
@@ -77,15 +77,54 @@ module Base
         Type = Normal,
         DisplayName = Button,
         Icon = OutOfPlayTextures/Button08_ico,
-        WorldStaticModel = Button08,
+        WorldStaticModel = Button,
+    }
+
+    item Button09
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button09_ico,
+        WorldStaticModel = Button,
+    }
+
+    item Button10
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button10_ico,
+        WorldStaticModel = Button,
+    }
+
+    item Button11
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button11_ico,
+        WorldStaticModel = Button,
+    }
+
+    item Button12
+    {
+        DisplayCategory = GamePiece, 
+        Weight = 0.01, 
+        Type = Normal,
+        DisplayName = Button,
+        Icon = OutOfPlayTextures/Button12_ico,
+        WorldStaticModel = Button,
     }
 
 
 	item Snakes_and_Ladders_Board_01
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
@@ -95,8 +134,7 @@ module Base
 	item Snakes_and_Ladders_Board_02
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
@@ -106,8 +144,7 @@ module Base
 	item Snakes_and_Ladders_Board_03
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
@@ -117,8 +154,7 @@ module Base
 	item Snakes_and_Ladders_Board_04
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
@@ -128,8 +164,7 @@ module Base
 	item Snakes_and_Ladders_Board_05
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
@@ -139,8 +174,7 @@ module Base
 	item Snakes_and_Ladders_Board_06
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
@@ -150,8 +184,7 @@ module Base
 	item Snakes_and_Ladders_Board_07
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
@@ -161,12 +194,101 @@ module Base
 	item Snakes_and_Ladders_Board_08
     {
        DisplayCategory = GameBoard, 
-       WeightReduction = 12, 
-       Weight = 1, 
+       Weight = 0.5, 
        Type = Normal, 
        DisplayName = Snakes and Ladders Board, 
        Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
        WorldStaticModel = Snakes_and_Ladders_Board_08,
+    }
+
+    item Snakes_and_Ladders_Board_09
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_09,
+    }
+
+    item Snakes_and_Ladders_Board_10
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_10,
+    }
+
+    item Snakes_and_Ladders_Board_11
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_11,
+    }
+
+    item Snakes_and_Ladders_Board_12
+    {
+       DisplayCategory = GameBoard,
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_12,
+    }
+
+    item Snakes_and_Ladders_Board_13
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_13,
+    }
+
+    item Snakes_and_Ladders_Board_14
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_14,
+    }
+
+    item Snakes_and_Ladders_Board_15
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_15,
+    }
+
+    item Snakes_and_Ladders_Board_16
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_16,
+    }
+
+    item Snakes_and_Ladders_Board_17
+    {
+       DisplayCategory = GameBoard, 
+       Weight = 0.5, 
+       Type = Normal, 
+       DisplayName = Snakes and Ladders Board, 
+       Icon = OutOfPlayTextures/SnakesAndLadderBoard, 
+       WorldStaticModel = Snakes_and_Ladders_Board_17,
     }
 
     item Snakes_and_Ladders_sealed
