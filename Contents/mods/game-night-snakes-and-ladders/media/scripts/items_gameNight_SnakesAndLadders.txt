@@ -5,7 +5,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button01_ico,
         WorldStaticModel = Button,
     }
@@ -15,7 +15,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button02_ico,
         WorldStaticModel = Button,
     }
@@ -25,7 +25,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button03_ico,
         WorldStaticModel = Button,
     }
@@ -35,7 +35,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button04_ico,
         WorldStaticModel = Button,
     }
@@ -45,7 +45,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button05_ico,
         WorldStaticModel = Button,
     }
@@ -55,7 +55,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button06_ico,
         WorldStaticModel = Button,
     }
@@ -65,7 +65,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button07_ico,
         WorldStaticModel = Button,
     }
@@ -75,7 +75,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button08_ico,
         WorldStaticModel = Button,
     }
@@ -85,7 +85,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button09_ico,
         WorldStaticModel = Button,
     }
@@ -95,7 +95,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button10_ico,
         WorldStaticModel = Button,
     }
@@ -105,7 +105,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button11_ico,
         WorldStaticModel = Button,
     }
@@ -115,7 +115,7 @@ module Base
         DisplayCategory = GamePiece, 
         Weight = 0.01, 
         Type = Normal,
-        DisplayName = Button,
+        DisplayName = Old Button,
         Icon = OutOfPlayTextures/Button12_ico,
         WorldStaticModel = Button,
     }
