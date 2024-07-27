@@ -54,6 +54,8 @@ gameNightDistro.gameNightBoxes["Snakes_and_Ladders_sealed"] = {
 		selectedButtons, 9999,
 		selectedButtons, 9999,
 		selectedButtons, 9999,
+		"Dice", 9999,
+		"Dice", 9999,
     },
     junk = { rolls = 1, items = {} }, fillRand = 0,
 }
