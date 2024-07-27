@@ -34,19 +34,15 @@ local buttonOptions = {
 }
 
 local function getRandomBoard()
-    local randomIndex = ZombRand(1, #boardOptions)
-    return boardOptions[randomIndex]
+    return boardOptions[ZombRand(1, #boardOptions)]
 end
 
--- happens 4 times, avoid duplicates
 local function getRandomButton()
-    local randomIndex = ZombRand(1, #boardOptions)
-    return buttonOptions[randomIndex]
+    return buttonOptions[ZombRand(1, #buttonOptions)]
 end
 
-local selectedBoard = getRandomBoard(boardOptions)
-
-local selectedButtons = getRandomButton(buttonOptions)
+local selectedBoard = getRandomBoard()
+local selectedButtons = getRandomButton()
 
 gameNightDistro.proceduralDistGameNight.itemsToAdd["Snakes_and_Ladders_sealed"] = {}
 
@@ -55,6 +51,9 @@ gameNightDistro.gameNightBoxes["Snakes_and_Ladders_sealed"] = {
     items = {
         selectedBoard, 9999,
         selectedButtons, 9999,
+		selectedButtons, 9999,
+		selectedButtons, 9999,
+		selectedButtons, 9999,
     },
     junk = { rolls = 1, items = {} }, fillRand = 0,
 }
