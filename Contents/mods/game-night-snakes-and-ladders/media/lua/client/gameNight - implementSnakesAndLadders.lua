@@ -168,15 +168,12 @@ gamePieceAndBoardHandler.registerSpecial("Base.Base.Button01",
 			alternateStackRendering = {func="DrawTextureRoundFace", depth = 5, rgb = {0.2, 0.4, 0.3}},
 		}
 )
-
-
 gamePieceAndBoardHandler.registerSpecial("Base.Base.Button02",
 		{
 			weight = 0.003,
 			alternateStackRendering = {func="DrawTextureRoundFace", depth = 5, rgb = {0.2, 0.4, 0.3}},
 		}
 )
-
 gamePieceAndBoardHandler.registerSpecial("Base.Base.Button03",
 		{
 			weight = 0.003,
@@ -208,6 +205,30 @@ gamePieceAndBoardHandler.registerSpecial("Base.Base.Button07",
 		}
 )
 gamePieceAndBoardHandler.registerSpecial("Base.Base.Button08",
+		{
+			weight = 0.003,
+			alternateStackRendering = {func="DrawTextureRoundFace", depth = 5, rgb = {0.2, 0.4, 0.3}},
+		}
+)
+gamePieceAndBoardHandler.registerSpecial("Base.Base.Button09",
+		{
+			weight = 0.003,
+			alternateStackRendering = {func="DrawTextureRoundFace", depth = 5, rgb = {0.2, 0.4, 0.3}},
+		}
+)
+gamePieceAndBoardHandler.registerSpecial("Base.Base.Button10",
+		{
+			weight = 0.003,
+			alternateStackRendering = {func="DrawTextureRoundFace", depth = 5, rgb = {0.2, 0.4, 0.3}},
+		}
+)
+gamePieceAndBoardHandler.registerSpecial("Base.Base.Button11",
+		{
+			weight = 0.003,
+			alternateStackRendering = {func="DrawTextureRoundFace", depth = 5, rgb = {0.2, 0.4, 0.3}},
+		}
+)
+gamePieceAndBoardHandler.registerSpecial("Base.Base.Button12",
 		{
 			weight = 0.003,
 			alternateStackRendering = {func="DrawTextureRoundFace", depth = 5, rgb = {0.2, 0.4, 0.3}},
